@@ -1,0 +1,615 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f6f6f6;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    float: left;
+}
+
+span {
+    display: inline-block;
+}
+
+.w {
+    width: 1190px;
+    /*height: 2000px;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/*顶部可以隐藏的图片*/
+
+.head {
+    width: 100%;
+    height: 80px;
+    background: #bd0000;
+}
+
+.head .head-advert {
+    height: 80px;
+    background: url("./image/head1.jpg") no-repeat;
+}
+
+.top {
+    height: 30px;
+    background: #e3e4e5;
+}
+
+.top ul li {
+    line-height: 30px;
+    font-size: 12px;
+    color: #666;
+    margin-left: 12px;
+}
+
+.top ul li a {
+    color: #666;
+}
+
+.top ul li a.te {
+    color: red;
+}
+
+.top ul li a:hover {
+    color: #c81623;
+}
+
+.top ul li:first-child {
+    margin-left: 210px;
+}
+
+.top ul li:nth-child(2) {
+    margin-left: 294px;
+}
+
+.logo {
+    width: 190px;
+    height: 170px;
+    background: url("./image/logo.v2.png") white;
+    position: absolute;
+    top: -30px;
+}
+
+.s-t {
+    width: 810px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.s-t .s-t-t {
+    margin-left: 130px;
+    padding-top: 24px;
+}
+
+.s-t .s-t-t .txt, .bt {
+    float: left;
+}
+
+.s-t .s-t-t .txt input {
+    width: 488px;
+    height: 33px;
+    border: 1px solid #f10215;
+    padding-left: 10px;
+    color: #666;
+    outline-style: none;
+}
+
+.s-t .s-t-t .bt {
+    width: 50px;
+    height: 35px;
+    background: #f10215;
+}
+
+.s-t .s-t-t .bt span {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    background: url("./image/sou.png");
+    margin-left: 12px;
+    margin-top: 4px;
+}
+
+.s-t .btm {
+    padding-top: 40px;
+}
+
+.s-t .btm ul li {
+    margin-left: 10px;
+}
+
+.s-t .btm ul li a {
+    font-size: 12px;
+    color: #666;
+}
+
+.s-t .btm ul li:first-child a {
+    color: red;
+}
+
+.s-t .btm ul li a:hover {
+    color: #c81623;
+}
+
+.s-d {
+    width: 810px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.s-d ul li {
+    margin-left: 30px;
+    line-height: 50px;
+}
+
+.s-d ul li a {
+    color: #555;
+}
+
+.s-d ul li a:hover {
+    color: #c81623;
+}
+
+
+/*购物车*/
+
+.gw {
+    width: 284px;
+    height: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.gw .car {
+    width: 188px;
+    height: 33px;
+    border: 1px solid #999;
+    margin-top: 24px;
+    background: #fff;
+    position: relative;
+}
+
+.gw .car .car-w {
+    margin-left: 75px;
+    font-size: 12px;
+    line-height: 33px;
+    color: #f10214;
+}
+
+.gw .car .car-s {
+    width: 18px;
+    height: 18px;
+    background: #f10214;
+    border-radius: 50%;
+    line-height: 18px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 2px;
+}
+
+.gw .car, .ma {
+    float: left;
+}
+
+.gw .ma {
+    margin-left: 26px;
+}
+
+.gw .xt {
+    width: 190px;
+    height: 40px;
+    margin-left: 94px;
+    margin-top: 28px;
+    display: inline-block;
+}
+
+
+/*菜单*/
+
+.body-1 .body-1-l ul li {
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    clear: both;
+    color: #fff;
+}
+
+.body-1 .body-1-l ul li:hover {
+    background: #999;
+}
+
+.body-1 .body-1-l ul li a {
+    padding: 0px 2px;
+    color: #fff;
+}
+
+.body-1 .body-1-l ul li a.q {
+    margin-left: 16px;
+}
+
+.body-1 .body-1-l ul li a:hover {
+    color: #c81623;
+}
+
+.body-1 .body-1-l ul {
+    padding: 15px 0px;
+}
+
+.body-1 .body-1-l {
+    width: 190px;
+    height: 480px;
+    background: #6e6568;
+}
+
+.body-1 .body-1-c {
+    width: 790px;
+    height: 480px;
+    position: absolute;
+    top: 140px;
+    left: 200px;
+}
+
+.body-1 .body-1-c .body-1-c-t {
+    width: 790px;
+    height: 340px;
+    background: url("./image/body1.jpg");
+    position: relative;
+}
+
+.body-1 .body-1-c .body-1-c-t ul {
+    width: 186px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 100%, 0.3);
+    position: absolute;
+    top: 300px;
+    left: 302px;
+}
+
+.body-1 .body-1-c .body-1-c-t ul li {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background: white;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.body-1 .body-1-c .body-1-c-t ul li:hover {
+    background: #c81623;
+}
+
+.body-1 .body-1-c .body-1-c-d {
+    width: 790px;
+    height: 130px;
+    margin-top: 10px;
+}
+
+.body-1 .body-1-c .body-1-c-d ul li:nth-child(2) {
+    margin-left: 10px;
+}
+
+.body-1 .body-1-r {
+    width: 190px;
+    height: 480px;
+    position: absolute;
+    top: 140px;
+    right: 0;
+}
+
+.body-1 .body-1-r-t {
+    width: 190px;
+    height: 116px;
+    background: white;
+    position: relative;
+}
+
+.body-1 .body-1-r-t img {
+    border-radius: 50%;
+    margin-top: 14px;
+    margin-left: 8px;
+}
+
+.body-1 .body-1-r-t p {
+    font-size: 13px;
+    position: absolute;
+    top: 20px;
+    right: 16px;
+}
+
+.body-1 .body-1-r-t a {
+    font-size: 13px;
+    color: #666;
+    margin-left: 10px;
+}
+
+.body-1 .body-1-r-t a:hover {
+    color: #c81623;
+}
+
+.body-1 .body-1-r-t span {
+    width: 68px;
+    height: 20px;
+    border: 2px solid #c81623;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 12px;
+    color: #c81623;
+}
+
+.body-1 .body-1-r-t span:hover {
+    color: white;
+    background: #c81623;
+}
+
+.body-1 .body-1-r-c {
+    width: 190px;
+    height: 154px;
+    border-top: 1px solid #e3e4e5;
+    background: white;
+}
+
+.body-1 .body-1-r-c ul li {
+    font-size: 12px;
+    margin-left: 12px;
+    color: #666;
+    padding-top: 6px;
+}
+
+.body-1 .body-1-r-c ul li.ge {
+    margin-left: 68px;
+}
+
+.body-1 .body-1-r-c ul li.ge:hover {
+    color: #c81623;
+}
+
+.body-1 .body-1-r-c .body-1-r-c-b {
+    width: 187px;
+    height: 84px;
+    margin-top: 28px;
+    margin-left: 12px;
+    padding-top: 10px;
+    border-top: 1px solid #e3e4e5;
+}
+
+.body-1 .body-1-r-c .body-1-r-c-b ul li a {
+    color: #666;
+}
+
+.body-1 .body-1-r-c .body-1-r-c-b ul li a:hover {
+    color: #c81623;
+}
+
+.body-1 .body-1-r-b ul li.wu {
+    width: 46px;
+    height: 68px;
+    border-top: 1px solid #e3e4e5;
+    border-right: 0px solid white;
+}
+
+.body-1 .body-1-r-b ul li {
+    width: 47px;
+    height: 69px;
+    border-top: 1px solid #e3e4e5;
+    border-right: 1px solid #e3e4e5;
+    text-align: center;
+    background: white;
+}
+
+.body-1 .body-1-r-b span {
+    width: 22px;
+    height: 24px;
+    margin-top: 15px;
+}
+
+.body-1 .body-1-r-b ul li:nth-child(1) span {
+    background: url("./image/jl2.png") 0px -88px;
+}
+
+.body-1 .body-1-r-b ul li:nth-child(2) span {
+    background: url("./image/jl2.png") 0px -44px;
+}
+
+.body-1 .body-1-r-b ul li:nth-child(3) span {
+    background: url("./image/jl2.png") -44px -88px;
+}
+
+.body-1 .body-1-r-b ul li:nth-child(4) span {
+    background: url("./image/jl2.png") -89px 0px;
+}
+
+.body-1 .body-1-r-b ul li:nth-child(5) span {
+    background: url("./image/jl2.png") -89px -44px;
+}
+
+.body-1 .body-1-r-b ul li:nth-child(6) span {
+    background: url("./image/jl2.png") 0px 0px;
+}
+
+.body-1 .body-1-r-b ul li:nth-child(7) span {
+    background: url("./image/jl2.png") -45px -44px;
+}
+
+.body-1 .body-1-r-b ul li:nth-child(8) span {
+    background: url("./image/jl2.png") -87px -88px;
+}
+
+.body-1 .body-1-r-b ul li:nth-child(9) span {
+    background: url("./image/jl2.png") 22px 0px;
+}
+
+.body-1 .body-1-r-b ul li:nth-child(10) span {
+    background: url("./image/jl2.png") 25px -44px;
+}
+
+.body-1 .body-1-r-b ul li:nth-child(11) span {
+    background: url("./image/jl2.png") 23px -88px;
+}
+
+.body-1 .body-1-r-b ul li:nth-child(12) span {
+    background: url("./image/jl2.png") -44px 0px;
+}
+
+.body-1 .body-1-r-b p {
+    width: 47px;
+    height: 12px;
+    font-size: 12px;
+}
+
+.body-1 .body-1-r-b p a {
+    text-align: center;
+    color: #666;
+}
+
+.body-1 .body-1-r-b p a:hover {
+    color: #c81623;
+}
+
+.body-2 {
+    height: 306px;
+    margin-top: 12px;
+}
+
+.body-2 .body-2-t {
+    height: 55px;
+    background: url("./image/a.png");
+}
+
+.body-2 .body-2-t ul li {
+    float: left;
+    line-height: 55px;
+}
+
+.body-2 .body-2-t ul li:nth-child(1) {
+    width: 22px;
+    height: 22px;
+    background: url("./image/jl1.png") -194px -52px;
+}
+
+.body-2 .body-2-t ul li:nth-child(2) {
+    width: 42px;
+    height: 46px;
+    background: url("./image/jl1.png") -210px -32px;
+}
+
+.body-2 .body-2-t ul li:nth-child(3) {
+    color: white;
+    margin-left: 10px;
+    line-height: 55px;
+}
+
+.body-2 .body-2-t ul li:nth-child(4) {
+    color: white;
+    margin-left: 10px;
+    line-height: 55px;
+}
+
+.body-2 .body-2-t ul li:nth-child(5) {
+    width: 20px;
+    height: 20px;
+    background: url("./image/jl1.png") -152px -36px;
+    margin-left: 10px;
+    margin-top: 17px;
+}
+
+.body-2 .body-2-t ul li:nth-child(6) {
+    color: white;
+    margin-left: 526px;
+    line-height: 55px;
+}
+
+.body-2 .body-2-t ul li:nth-child(7) {
+    margin-top: 6px;
+}
+
+.body-2 .body-2-t ul li:nth-child(8) {
+    color: white;
+    margin-left: 10px;
+    line-height: 55px;
+}
+
+.body-2 .body-2-b {
+    height: 250px;
+    background: white;
+}
+
+.body-2 .body-2-b ul li {
+    width: 174px;
+    height: 226px;
+    font-size: 12px;
+    padding: 0 10px;
+    position: relative;
+}
+
+.body-2 .body-2-b ul li img {
+    margin-left: 22px;
+}
+
+.body-2 .body-2-b ul li a {
+    width: 178px;
+    color: #999;
+}
+
+.body-2 .body-2-b ul li p {
+    padding-left: 4px;
+}
+
+.body-2 .body-2-b ul li p:hover {
+    color: #c81623;
+}
+
+.body-2 .body-2-b ul li.x {
+    border-right: 1px solid #999;
+}
+
+.body-2 .body-2-b ul li.te {
+    padding-left: 0px;
+}
+
+.body-2 .body-2-b ul li span {
+    margin-top: 12px;
+}
+
+.body-2 .body-2-b ul li i.y1 {
+    color: red;
+}
+
+.body-2 .body-2-b ul li span .y2 {
+    font-size: 18px;
+    color: red;
+}
+
+.body-2 .body-2-b ul li span .y3 {
+    margin-left: 10px;
+}
+
+.body-2 .body-2-b ul li .sj {
+    width: 32px;
+    height: 40px;
+    background: red;
+    position: absolute;
+    top: 0px;
+    left: 16px;
+    background: url("./image/jl1.png") 165px -40px;
+    text-align: center;
+    line-height: 40px;
+}
